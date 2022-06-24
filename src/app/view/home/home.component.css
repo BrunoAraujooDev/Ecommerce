@@ -2,6 +2,7 @@
     margin-top: 5em;
     height: 625px;
     width: 100vw;
+    font-family: var(--font-primary);
 }
 
 .home-paragraph{
@@ -10,4 +11,79 @@
     font-weight: 700;
     width: 500px;
     text-align: center;
+}
+
+.home-second-section{
+    background-color: #fff !important;
+    height: 800px;
+    width: 100vw;
+    font-family: var(--font-primary);
+}
+
+.div-home-img{
+    width: 50vw;
+    height: 100%;
+}
+
+.div-home-img > img{
+    width: 100%;
+    height: 100%;
+}
+
+.div-home-text{
+    height: 900px;
+    width: 50vw;
+    padding: 8rem  10rem 0 5rem;
+    color: #26201E;
+}
+
+.div-home-text > h4 {
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 0.6rem;
+}
+
+.div-home-text > h1{
+    font-weight: 700;
+    font-size: 4rem;
+    font-family: var(--font-primary);
+}
+
+.div-home-text > p {
+    font-family: var(--font-secundary);
+}
+
+.home-third-section{
+    height: 700px;
+    padding: 3rem 0 3rem 5rem;
+    width: 100vw;
+    color: #fff;
+    background-color: #0D0705;
+}
+
+.section-specs{
+    display: flex;
+}
+
+.div-specs{
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    margin-left: 5rem;
+    margin-bottom: 3rem;
+    font-family: var(--font-primary);
+}
+
+.div-specs > span {
+    font-size: 4rem;
+}
+
+.div-specs > h4{
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.div-specs > p {
+    font-family: var(--font-secundary);
 }

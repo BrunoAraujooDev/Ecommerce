@@ -1,0 +1,13 @@
+.home-first-section{
+    margin-top: 5em;
+    height: 625px;
+    width: 100vw;
+}
+
+.home-paragraph{
+    font-size: 4rem;
+    color: #fff;
+    font-weight: 700;
+    width: 500px;
+    text-align: center;
+}

@@ -1,0 +1,15 @@
+nav {
+    font-family: var(--font-primary);
+    position: fixed;
+    color: #fff;
+    background-color: rgb(rgba(0, 0, 0, 0));
+    width: 100vw;
+}
+
+.newBackground{
+    background-color: #0d0705;
+}
+
+a {
+    color: #fff;
+}

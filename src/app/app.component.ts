@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'ecommerce';
+  
+  position: number = 0;
+
+  getPosition(){
+    this.position = window.pageYOffset;  
+  }
 }

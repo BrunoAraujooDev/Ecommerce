@@ -87,3 +87,34 @@
 .div-specs > p {
     font-family: var(--font-secundary);
 }
+
+.div-our-products{
+    background-color: #fff;
+    width: 100vw;
+    padding: 2rem;
+}
+
+.div-our-products > h1 {
+    font-size: 4.5rem;
+}
+
+.div-shop-now{
+    width: 60%;
+}
+
+.div-shop-now > button {
+    background-color: rgb(52,45,45);
+    color: #fff;
+    border: none;
+    padding: 8px 20px;
+    width: 10rem;
+    text-align: center;
+    overflow: hidden;
+    font-family: var(--font-secundary);
+    font-size: 14px;
+}
+
+.div-shop-now > button:hover{
+    background-color: rgb(25,19,17);
+}
+

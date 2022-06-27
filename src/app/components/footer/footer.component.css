@@ -1,0 +1,7 @@
+footer{
+    color: #fff;
+    padding: 30px 50px;
+    background-color: rgb(13,7,5);
+    text-decoration: underline;
+    font-family: var(--font-secundary);
+}

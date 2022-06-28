@@ -1,0 +1,42 @@
+.article-shop{
+    padding: 50px 100px;
+    background-color: #fff;
+    min-height: 70vh;
+}
+
+.div-all-cards{
+    display: flex;
+    gap: 4rem;
+    cursor: pointer;
+    font-family: var(--font-secundary);
+}
+
+.div-card  {
+    width: 320px;
+    height: 380px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+
+.img-product{
+    width: 100%;
+    transition:  .3s all  ease-in-out;
+    background-size: cover;
+}
+
+.div-card:hover .img-product{ 
+    transform: scale(1.1);
+    overflow: hidden;
+}
+
+.product-name{
+    font-weight: 400;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+.div-card > p {
+    font-weight: 700;
+    font-size: 1.5rem;
+}

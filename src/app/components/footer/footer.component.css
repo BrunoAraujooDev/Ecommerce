@@ -5,3 +5,7 @@ footer{
     text-decoration: underline;
     font-family: var(--font-secundary);
 }
+
+footer > h3{
+    cursor: pointer;
+}

@@ -1,0 +1,25 @@
+<article class=" article-shop">
+    <div class="row mb-5">
+        <div class="col-4">
+            <button class="btn btn-dark">Price: Low to High</button>
+            <button class="btn btn-dark ms-4">Price: High to Low</button>
+        </div>
+        <div class="col-4">
+            <button class="btn btn-dark">Name: A to Z</button>
+            <button class="btn btn-dark ms-4">Name: Z to A</button>
+        </div>
+        <div class="col-4">
+            <div class="input-group input-group-sm">
+                <span class="input-group-text" id="inputGroup-sizing-sm">Search</span>
+                <input type="text" class="form-control" aria-label="Sizing input" aria-describedby="inputGroup-sizing-sm" (input)="searchProduct(input.value)" #input>
+              </div>
+        </div>
+    </div>
+    <div class="row div-all-cards" >
+        <div class="div-card col-3 "  *ngFor="let product of products">
+            <img [src]="product.img" class=" img-product" [alt]="product.name">
+              <h5 class="product-name"> {{ product.name || '' }} </h5>
+              <p>{{product.price |  currency:'EUR'}}</p>
+            </div>
+    </div>
+</article>
